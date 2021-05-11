@@ -310,6 +310,7 @@ li{
     font-size: 24px;
     color: #fff;
 }
+<<<<<<< HEAD
 
 @media(max-width: 768px) {
     .navbar {
@@ -317,4 +318,8 @@ li{
         height: 120px;
         padding: 20px;
     }
+=======
+@media(max-width: 768px){
+
+>>>>>>> deefa85356153c5ba160e9b4be118425ff631c67
 }
