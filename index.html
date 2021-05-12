@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-    <script src="https://kit.fontawesome.com/357c85ef6b.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <script
+      src="https://kit.fontawesome.com/357c85ef6b.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="../fontawesome/fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/index.css" />
@@ -13,31 +16,40 @@
   </head>
   <body>
     <header id="header">
-      <div class="container">
-        <div id="navbar">
-          <div class="logo">
-            <span><a href="index.html"><span class="logo-text">COOLTECH</span> NAILS</a></span>
-          </div>
-          <ul class="flex">
+      <div id="navbar">
+        <div class="logo">
+          <span
+            ><a href="index.html"
+              ><span class="logo-text">COOLTECH</span> NAILS</a
+            ></span
+          >
+        </div>
+        <nav>
+          <ul class="menu flex">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About us</a></li>
             <li><a href="service.html">Services</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li><a href="booking.html">Book Now</a></li>
           </ul>
-        </div>
+        </nav>
       </div>
+
       <section id="showcase">
-        <div class="text-slide">
-          <h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-            inventore.
-          </h1>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
-            nemo iusto, nobis quis cum fugit fuga illo amet totam sit?
-          </p>
-          <a href="booking.html" class="btn">Book Now</a>
+        <div class="slider">
+          <div class="text-slide">
+            <h1>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+              inventore.
+            </h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Quibusdam nemo iusto, nobis quis cum fugit fuga illo amet totam
+              sit?
+            </p>
+          </div>
+          <div>
+            <a href="booking.html" class="btn">Book Now</a>
+          </div>
         </div>
       </section>
     </header>
@@ -164,44 +176,42 @@
     </main>
     <footer id="footer">
       <div class="col">
-        <ul class="info">
+        <ul class="mrg20px">
           <li><i class="fas fa-map-marker-alt"></i></li>
           <li>1551 Dundas St, London</li>
           <li>ON, N5W 5Y5</li>
           <li>519-451-3388</li>
         </ul>
-        <ul class="hours">
+        <ul class="mrg20px">
           <li><i class="far fa-clock"></i></li>
           <li>Saturday 9:30am - 5pm</li>
           <li>Sunday Closed</li>
           <li>Monday - Friday 9:30am - 7pm</li>
         </ul>
-        <a href="contact.html" class="btn">Contact Us</a>
+        <div class="mrg20px">
+          <a href="contact.html" class="btn">Contact Us</a>
+        </div>
       </div>
     </footer>
-<<<<<<< HEAD
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
     <script>
-        //smooth scrolling
-        $('.btn').on('click',function(event){
-            if (this.hash !== ''){
-                event.preventDefault();
-                const hash =this.hash;
-                $('html,body').animate(
-                    {
-                        scrollTop: $(hash).offset().top
-                    },
-                    800
-                );
-            }
-        });
+      //smooth scrolling
+      $(".btn").on("click", function (event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          const hash = this.hash;
+          $("html,body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            800
+          );
+        }
+      });
     </script>
-=======
-    
->>>>>>> deefa85356153c5ba160e9b4be118425ff631c67
   </body>
 </html>
